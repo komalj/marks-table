@@ -1,0 +1,20 @@
+
+table {
+    align: "center";
+    margin: 50px;
+    border-collapse: collapse;
+}
+
+td, th, tr {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+}

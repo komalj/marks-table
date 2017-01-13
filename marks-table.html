@@ -1,0 +1,28 @@
+<!--
+    Creates a table with given data of students and their marks.
+    The 'Total' button when pressed, adds a column containing the total marks of each student.
+    The 'Percentage' button is enabled only after the total has been calculated, and it adds a column
+    containing the percentage marks out of 500, of each student.
+    Both buttons can be clicked only once.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="marks-table-style.css"/>
+
+</head>
+
+<body>
+
+
+  <center>
+  <input name="Total" id="b1" type="button" value="Total" onclick="findTotal()"/>
+  <input name="Percentage" id="b2" type="button" value="Percentage" onclick="findPercentage()" disabled="true"/>
+  </center>
+
+  <script src="marks-table-script.js"> </script>
+
+</body>
+</html>
