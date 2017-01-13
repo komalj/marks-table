@@ -47,8 +47,7 @@
 
   function createTable() {
 
-    var body = document.getElementsByTagName('body')[0];
-    var table = document.createElement('table');
+    var table = document.getElementsByTagName('table')[0];
 
     var r = myData.length; //no. of rows = no. of students + 1
 
@@ -77,8 +76,6 @@
 
         table.appendChild(tr);
     }
-
-    body.appendChild(table);
 
   }
 
